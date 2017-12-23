@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="254.56303mm"
+   height="81.462341mm"
+   viewBox="0 0 254.56303 81.462342"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="email.svg">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter5831">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5821" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5823" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.2"
+         result="blur"
+         id="feGaussianBlur5825" />
+      <feOffset
+         dx="1.5"
+         dy="0"
+         result="offset"
+         id="feOffset5827" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5829" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="536.55142"
+     inkscape:cy="159.05701"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="-7"
+     inkscape:window-width="3200"
+     inkscape:window-height="1707"
+     inkscape:window-x="0"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(83.532341,-14.830112)">
+    <g
+       id="g5450"
+       style="filter:url(#filter5831)">
+      <rect
+         y="22.201973"
+         x="-62.318756"
+         height="73.718613"
+         width="212.07486"
+         id="rect4485"
+         style="fill:#ffffff;fill-opacity:1;stroke:#eeeeee;stroke-width:0.61009163;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="22.234398"
+         x="-62.286331"
+         height="16.328497"
+         width="212.10342"
+         id="rect4558"
+         style="fill:#eeeeee;fill-opacity:1;stroke:#eeeeee;stroke-width:0.23994106;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4489"
+         y="56.638744"
+         x="-57.323784"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93888903px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium Italic';stroke-width:0.26458332px"
+           y="56.638744"
+           x="-57.323784"
+           id="tspan4487"
+           sodipodi:role="line">New Releases</tspan><tspan
+           id="tspan4509"
+           style="stroke-width:0.26458332px"
+           y="57.289604"
+           x="-57.323784"
+           sodipodi:role="line" /><tspan
+           id="tspan4491"
+           style="stroke-width:0.26458332px"
+           y="57.289604"
+           x="-57.323784"
+           sodipodi:role="line" /></text>
+      <g
+         transform="translate(-3.5249998,1.3256029)"
+         id="g4717">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-54.155796"
+           y="63.65221"
+           id="text4495"><tspan
+             sodipodi:role="line"
+             id="tspan4493"
+             x="-54.155796"
+             y="63.65221"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';stroke-width:0.26458332px">facebook/react</tspan><tspan
+             sodipodi:role="line"
+             x="-54.155796"
+             y="63.65221"
+             style="stroke-width:0.26458332px"
+             id="tspan4497" /></text>
+        <g
+           id="g4702"
+           transform="translate(0.56063192,0.93544335)">
+          <text
+             id="text4501"
+             y="68.350914"
+             x="-54.645874"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="stroke-width:0.26458332px"
+               y="68.350914"
+               x="-54.645874"
+               id="tspan4499"
+               sodipodi:role="line">Release 16.0.0.beta.2 over 16.0.0.beta.1 with 259 commits, 18 closed issues, 12 merged pull requests.  See announcement.</tspan><tspan
+               id="tspan4507"
+               style="stroke-width:0.26458332px"
+               y="68.350914"
+               x="-54.645874"
+               sodipodi:role="line" /><tspan
+               id="tspan4503"
+               style="stroke-width:0.26458332px"
+               y="68.350914"
+               x="-54.645874"
+               sodipodi:role="line" /><tspan
+               id="tspan4505"
+               style="stroke-width:0.26458332px"
+               y="68.350914"
+               x="-54.645874"
+               sodipodi:role="line" /></text>
+          <path
+             inkscape:connector-curvature="0"
+             id="path4511"
+             d="M 19.91158,68.899775 H 41.025873"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4511-1"
+             d="M 44.66491,68.899775 H 68.986437"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28441533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4511-1-5"
+             d="M 71.542947,68.899775 H 111.49973"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.36454654;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4511-1-5-9"
+             d="m 120.70548,68.899775 h 25.79164"
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.29288453;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+      <text
+         id="text4568"
+         y="25.865808"
+         x="-57.549564"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:3.52777767px;stroke-width:0.26458332px"
+           y="25.865808"
+           x="-57.549564"
+           id="tspan4566"
+           sodipodi:role="line">From:  updates@getpinged.io</tspan><tspan
+           id="tspan4570"
+           style="stroke-width:0.26458332px"
+           y="26.082762"
+           x="-57.549564"
+           sodipodi:role="line" /></text>
+      <text
+         id="text4574"
+         y="30.15016"
+         x="-57.30262"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:3.52777767px;stroke-width:0.26458332px"
+           y="30.15016"
+           x="-57.30262"
+           id="tspan4572"
+           sodipodi:role="line">To:  bryan@getpinged.io</tspan><tspan
+           id="tspan4576"
+           style="stroke-width:0.26458332px"
+           y="30.367113"
+           x="-57.30262"
+           sodipodi:role="line" /></text>
+      <text
+         id="text4580"
+         y="36.551216"
+         x="-57.362591"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:3.52777767px;stroke-width:0.26458332px"
+           y="36.551216"
+           x="-57.362591"
+           id="tspan4578"
+           sodipodi:role="line">Subj:  Pinged Updates - 1 new beta release, 27 no change</tspan></text>
+      <text
+         id="text4495-8"
+         y="80.931534"
+         x="-58.046982"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.93888903px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium Italic';stroke-width:0.26458332px"
+           y="80.931534"
+           x="-58.046982"
+           id="tspan4493-4"
+           sodipodi:role="line">Other Projects You Follow</tspan><tspan
+           id="tspan4497-8"
+           style="stroke-width:0.26458332px"
+           y="81.148483"
+           x="-58.046982"
+           sodipodi:role="line" /></text>
+      <text
+         id="text4615"
+         y="92.618729"
+         x="-57.462074"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="92.618729"
+           x="-57.462074"
+           id="tspan4613"
+           sodipodi:role="line">google/golang              1.9.1                  18 Oct 17                        17 Nov 17                     114 (+3, -2)</tspan></text>
+      <text
+         id="text4619"
+         y="87.562096"
+         x="-57.610241"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="87.562096"
+           x="-57.610241"
+           id="tspan4617"
+           sodipodi:role="line">Project</tspan></text>
+      <text
+         id="text4619-1"
+         y="87.66581"
+         x="-23.11298"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="87.66581"
+           x="-23.11298"
+           id="tspan4617-0"
+           sodipodi:role="line">Latest</tspan></text>
+      <text
+         id="text4619-1-3"
+         y="87.293152"
+         x="-3.2753596"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="87.293152"
+           x="-3.2753596"
+           id="tspan4617-0-0"
+           sodipodi:role="line">Release Date</tspan></text>
+      <text
+         id="text4619-1-3-4"
+         y="87.517349"
+         x="29.39793"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="87.517349"
+           x="29.39793"
+           id="tspan4617-0-0-4"
+           sodipodi:role="line">Last Commit</tspan></text>
+      <text
+         id="text4619-1-3-4-4"
+         y="87.388565"
+         x="58.306038"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="87.388565"
+           x="58.306038"
+           id="tspan4617-0-0-4-4"
+           sodipodi:role="line">Issues (+new, -closed)</tspan></text>
+      <rect
+         y="41.702652"
+         x="-57.545681"
+         height="7.6171813"
+         width="201.12032"
+         id="rect4881"
+         style="fill:#14a7f4;fill-opacity:1;stroke:#eeeeee;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g5186"
+         transform="matrix(0.01590412,0,0,0.01590412,-54.356559,41.427294)">
+        <path
+           style="fill:#89867c"
+           d="m 252,275.156 c -12,0 -22.4,-10.4 -22.4,-22.4 v -129.6 c 0,-12 10.4,-22.4 22.4,-22.4 h 49.6 v 27.2 H 256 v 124.8 c 0,-2.4 -2.4,-4.8 -4.8,-4.8 v 27.2 z"
+           id="path5041"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g5047">
+          <path
+             style="fill:#6d6b64"
+             d="m 252,127.956 c -12,0 -22.4,10.4 -22.4,22.4 v 102.4 c 0,12 10.4,22.4 22.4,22.4 v -27.2 c 2.4,0 4.8,2.4 4.8,4.8 v -97.6 -27.2 z"
+             id="path5043"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#6d6b64"
+             d="m 304.8,130.356 c 0,2.4 -2.4,4.8 -4.8,4.8 v 0 c -2.4,0 -4.8,-2.4 -4.8,-4.8 v -30.4 c 0,-2.4 2.4,-4.8 4.8,-4.8 v 0 c 2.4,0 4.8,2.4 4.8,4.8 z"
+             id="path5045"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           style="fill:#ffae0b"
+           d="m 320.8,235.156 c 0,3.2 -2.4,5.6 -5.6,5.6 h -132 c -3.2,0 -5.6,-2.4 -5.6,-5.6 l 12,-49.6 c 0,-3.2 2.4,-5.6 5.6,-5.6 h 101.6 c 3.2,0 5.6,2.4 5.6,5.6 z"
+           id="path5049"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffd00d"
+           d="m 357.6,283.956 c 0,4.8 -4,8.8 -8.8,8.8 h -200 c -4.8,0 -8.8,-4 -8.8,-8.8 l 17.6,-75.2 c 0,-4.8 4,-8.8 8.8,-8.8 h 155.2 c 4.8,0 8.8,4 8.8,8.8 z"
+           id="path5051"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffae0b"
+           d="m 357.6,288.756 c 0,4.8 -4,8.8 -8.8,8.8 h -200 c -4.8,0 -8.8,-4 -8.8,-8.8 l 17.6,-75.2 c 0,-4.8 4,-8.8 8.8,-8.8 h 155.2 c 4.8,0 8.8,4 8.8,8.8 z"
+           id="path5053"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g5059">
+          <path
+             style="fill:#7a8487"
+             d="m 71.2,371.156 c 0,5.6 -1.6,10.4 -4,10.4 -1.6,0 -7.2,-9.6 -7.2,-15.2 0,-5.6 5.6,-4.8 7.2,-4.8 2.4,0 4,4 4,9.6 z"
+             id="path5055"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#7a8487"
+             d="m 60,391.156 c 0,-5.6 1.6,-10.4 4,-10.4 1.6,0 7.2,9.6 7.2,15.2 0,5.6 -5.6,4.8 -7.2,4.8 -2.4,0.8 -4,-4 -4,-9.6 z"
+             id="path5057"
+             inkscape:connector-curvature="0" />
+        </g>
+        <path
+           style="fill:#596568"
+           d="m 143.2,381.556 c 0,1.6 -1.6,3.2 -3.2,3.2 H 68.8 c -1.6,0 -3.2,-1.6 -3.2,-3.2 v 0 c 0,-1.6 1.6,-3.2 3.2,-3.2 H 140 c 1.6,0 3.2,0.8 3.2,3.2 z"
+           id="path5061"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#7a8487"
+           d="m 314.4,390.356 c 0,4.8 -4,8.8 -8.8,8.8 h -188 c -4.8,0 -8.8,-4 -8.8,-8.8 v -20 c 0,-4.8 4,-8.8 8.8,-8.8 h 188 c 4.8,0 8.8,4 8.8,8.8 z"
+           id="path5063"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#596568"
+           d="m 325.6,390.356 c 0,4.8 -4,8.8 -8.8,8.8 h -188 c -4.8,0 -8.8,-4 -8.8,-8.8 v -20 c 0,-4.8 4,-8.8 8.8,-8.8 h 188 c 4.8,0 8.8,4 8.8,8.8 z"
+           id="path5065"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffd00d"
+           d="m 70.4,285.556 c 0,20 -38.4,36.8 -49.6,36.8 -11.2,0 -20.8,-16.8 -20.8,-36.8 0,-20 2.4,-43.2 13.6,-43.2 12,0 56.8,23.2 56.8,43.2 z"
+           id="path5067"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffae0b"
+           d="m 54.4,285.556 c 0,20 -21.6,36.8 -33.6,36.8 -12,0 -20.8,-16.8 -20.8,-36.8 0,-20 2.4,-43.2 13.6,-43.2 12,0 40.8,23.2 40.8,43.2 z"
+           id="path5069"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffd00d"
+           d="m 496,315.156 c 0,37.6 -39.2,84.8 -176,84.8 -136,0 -318.4,-47.2 -318.4,-84.8 0,-37.6 110.4,-68 247.2,-68 136.8,0 247.2,30.4 247.2,68 z"
+           id="path5071"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ffae0b"
+           d="m 496,315.156 c 0,37.6 -39.2,84.8 -176,84.8 -136,0 -318.4,-47.2 -318.4,-84.8 0,-37.6 129.6,-54.4 265.6,-54.4 136.8,0 228.8,16.8 228.8,54.4 z"
+           id="path5073"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#ff860d"
+           d="m 496,315.156 c 0,37.6 -39.2,84.8 -176,84.8 -136,0 -318.4,-47.2 -318.4,-84.8"
+           id="path5075"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#e56a0e"
+           d="m 162.4,354.356 c -12,0 -21.6,-19.2 -21.6,-31.2 0,-12 9.6,-21.6 21.6,-21.6 12,0 21.6,9.6 21.6,21.6 0,12 -9.6,31.2 -21.6,31.2 z"
+           id="path5077"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#77acbf"
+           d="m 162.4,345.556 c -12,0 -21.6,-9.6 -21.6,-21.6 0,-12 9.6,-21.6 21.6,-21.6 12,0 21.6,9.6 21.6,21.6 0,12 -9.6,21.6 -21.6,21.6 z"
+           id="path5079"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#e8d918"
+           d="m 162.4,303.956 c 11.2,0 20,8.8 20,20 0,11.2 -8.8,20 -20,20 -11.2,0 -20,-8.8 -20,-20 0,-11.2 9.6,-20 20,-20 m 0,-4.8 c -13.6,0 -24,11.2 -24,24 0,13.6 11.2,24 24,24 13.6,0 24,-11.2 24,-24 0,-12.8 -10.4,-24 -24,-24 z"
+           id="path5081"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#539aad"
+           d="m 142.4,323.156 c 0,11.2 8.8,20 20,20 11.2,0 20,-8.8 20,-20 0,-3.2 -0.8,-5.6 -1.6,-8 h -36 c -1.6,2.4 -2.4,5.6 -2.4,8 z"
+           id="path5083"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#e56a0e"
+           d="m 248.8,354.356 c -12,0 -21.6,-19.2 -21.6,-31.2 0,-12 9.6,-21.6 21.6,-21.6 12,0 21.6,9.6 21.6,21.6 0,12 -9.6,31.2 -21.6,31.2 z"
+           id="path5085"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#77acbf"
+           d="m 248.8,345.556 c -12,0 -21.6,-9.6 -21.6,-21.6 0,-12 9.6,-21.6 21.6,-21.6 12,0 21.6,9.6 21.6,21.6 0,12 -9.6,21.6 -21.6,21.6 z"
+           id="path5087"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#e8d918"
+           d="m 248.8,303.956 c 11.2,0 20,8.8 20,20 0,11.2 -8.8,20 -20,20 -11.2,0 -20,-8.8 -20,-20 0,-11.2 9.6,-20 20,-20 m 0,-4.8 c -13.6,0 -24,11.2 -24,24 0,13.6 11.2,24 24,24 13.6,0 24,-11.2 24,-24 0,-12.8 -10.4,-24 -24,-24 z"
+           id="path5089"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#539aad"
+           d="m 228.8,323.156 c 0,11.2 8.8,20 20,20 11.2,0 20,-8.8 20,-20 0,-3.2 -0.8,-5.6 -1.6,-8 h -36 c -1.6,2.4 -2.4,5.6 -2.4,8 z"
+           id="path5091"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#e56a0e"
+           d="m 335.2,354.356 c -12,0 -21.6,-19.2 -21.6,-31.2 0,-12 9.6,-21.6 21.6,-21.6 12,0 21.6,9.6 21.6,21.6 0,12 -9.6,31.2 -21.6,31.2 z"
+           id="path5093"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#77acbf"
+           d="m 335.2,345.556 c -12,0 -21.6,-9.6 -21.6,-21.6 0,-12 9.6,-21.6 21.6,-21.6 12,0 21.6,9.6 21.6,21.6 0,12 -9.6,21.6 -21.6,21.6 z"
+           id="path5095"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#e8d918"
+           d="m 335.2,303.956 c 11.2,0 20,8.8 20,20 0,11.2 -8.8,20 -20,20 -11.2,0 -20,-8.8 -20,-20 0,-11.2 9.6,-20 20,-20 m 0,-4.8 c -13.6,0 -24,11.2 -24,24 0,13.6 11.2,24 24,24 13.6,0 24,-11.2 24,-24 0,-12.8 -10.4,-24 -24,-24 z"
+           id="path5097"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#539aad"
+           d="m 315.2,323.156 c 0,11.2 8.8,20 20,20 11.2,0 20,-8.8 20,-20 0,-3.2 -0.8,-5.6 -1.6,-8 h -36 c -1.6,2.4 -2.4,5.6 -2.4,8 z"
+           id="path5099"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#7a8487"
+           d="m 70.4,381.556 c 0,2.4 -2.4,4.8 -4.8,4.8 -2.4,0 -4.8,-2.4 -4.8,-4.8 0,-2.4 2.4,-4.8 4.8,-4.8 2.4,0 4.8,1.6 4.8,4.8 z"
+           id="path5101"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g5103" />
+        <g
+           id="g5105" />
+        <g
+           id="g5107" />
+        <g
+           id="g5109" />
+        <g
+           id="g5111" />
+        <g
+           id="g5113" />
+        <g
+           id="g5115" />
+        <g
+           id="g5117" />
+        <g
+           id="g5119" />
+        <g
+           id="g5121" />
+        <g
+           id="g5123" />
+        <g
+           id="g5125" />
+        <g
+           id="g5127" />
+        <g
+           id="g5129" />
+        <g
+           id="g5131" />
+      </g>
+      <text
+         id="text5343"
+         y="47.30994"
+         x="-44.326584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Orbitron;-inkscape-font-specification:Orbitron;letter-spacing:-0.26458332px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:5.64444447px;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+           y="47.30994"
+           x="-44.326584"
+           id="tspan5341"
+           sodipodi:role="line">pinged</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:0%;font-family:Orbitron;-inkscape-font-specification:Orbitron;letter-spacing:-0.26458332px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-49.393959"
+       y="10.565751"
+       id="text5347"><tspan
+         sodipodi:role="line"
+         id="tspan5345"
+         x="-49.393959"
+         y="11.624084"
+         style="stroke-width:0.26458332px" /></text>
+  </g>
+</svg>

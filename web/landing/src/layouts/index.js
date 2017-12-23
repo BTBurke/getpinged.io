@@ -9,8 +9,10 @@ import Typography from 'material-ui/Typography';
 import Button from 'material-ui/Button';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
+import Grid from 'material-ui/Grid';
 import ReactSVG from 'react-svg';
 import logo from '../pages/assets/logo.svg';
+
 
 import './index.css'
 import createMuiTheme from 'material-ui/styles/createMuiTheme';
@@ -46,12 +48,18 @@ const styles = theme => ({
       display: 'none',
     },
   },
+  toolbar: {
+    width: '100%',
+  },
+  global: {
+    'overflow-x': 'hidden',
+  }
 });
 
 
 
 const TemplateWrapper = ({ children, classes }) => (
-  <div>
+  <div className="classes.global">
     <Helmet
       title="Pinged | Get updates on your favorite projects"
       meta={[
@@ -60,7 +68,7 @@ const TemplateWrapper = ({ children, classes }) => (
       ]}
     />
     <div className={classes.root}>
-        <Toolbar>
+        <Toolbar className={classes.toolbar}>
           <img src={logo} className={classes.logo}/>
           <Typography type="title" color="inherit" className={classes.flex}>
             <span className={classes.logoText}>pinged</span>
@@ -70,7 +78,9 @@ const TemplateWrapper = ({ children, classes }) => (
         </Toolbar>
     </div>
     <div>
-      {children()}
+      <Grid container spacing={0}>
+        {children()}
+      </Grid>
     </div>
     </div>
 );
