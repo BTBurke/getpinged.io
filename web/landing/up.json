@@ -1,0 +1,21 @@
+{
+    "profile": "getpinged",
+    "regions": ["us-east-1"],
+    "name": "getpingedio",
+    "hooks": {
+        "build": "yarn build",
+        "clean": "rm -r public/*"
+    },
+    "type": "static",
+    "static": {
+        "dir": "public"
+    },
+    "stages": {
+        "production": {
+            "domain": "getpinged.io"
+        },
+        "development": {
+            "domain": "dev.getpinged.io"
+        }
+    }
+}

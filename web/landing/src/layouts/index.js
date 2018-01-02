@@ -19,12 +19,12 @@ import createMuiTheme from 'material-ui/styles/createMuiTheme';
 import indigo from 'material-ui/colors/indigo';
 import green from 'material-ui/colors/green';
 require('typeface-roboto');
-
+import orbitron from '../pages/fonts/orbitron.css';
 
 const styles = theme => ({
   root: {
     marginTop: 0,
-    background: '#03A9F4',
+    background: '#004e66',
     width: '100%',
   },
   flex: {
@@ -34,6 +34,7 @@ const styles = theme => ({
     marginLeft: 0,
     marginRight: 20,
     height: '65px',
+    marginTop: '5px',
   },
   logoText: {
     fontWeight: 900,

@@ -13,13 +13,16 @@ const styles = theme => ({
     root: {
         marginTop: '0px',
         width: '100%',
-        background: '#e3eef0',
+        background: '#004e66',
         minHeight: '250px',
         fontFamily: roboto,
       },
       headtext: {
         marginTop: '50px',
         textAlign: 'center',
+        color: '#fff',
+        fontFamily: 'Montserrat',
+        fontWeight: 700,
       },
       inputLabelFocused: {
         color: '#ffad11',
@@ -116,7 +119,7 @@ class Follow extends React.Component{
                         return (
                         <Grid item key={proj}>
                             <Chip
-                            avatar={<Avatar>{selected ? 'C' : '+'}
+                            avatar={<Avatar>{selected ? '✔' : '+'}
                                 </Avatar>}
                             label={proj}
                             style={selected ? {background: '#ffad11'} : null}
@@ -128,31 +131,7 @@ class Follow extends React.Component{
                 }
                 </Grid>
             </Grid>
-            <Grid item xs={12}>
-                <Grid container direction="column" justify="center" alignItems="stretch">
-                <Grid item>
-                <form onSubmit={(e) => this.searchChange(e)}>
-                    <FormControl className={classes.form}>
-                        <InputLabel
-                        FormControlClasses={{
-                            focused: classes.inputLabelFocused,
-                        }}
-                        htmlFor="custom-color-input"
-                        >
-                        Or search for a project (e.g., mojombo/jekyll)
-                        </InputLabel>
-                        <Input
-                        classes={{
-                            inkbar: classes.inputInkbar,
-                        }}
-                        id="searchvalue"
-                        ref="test"
-                        />
-                    </FormControl>
-                </form>
-                </Grid>
-                </Grid>
-            </Grid>
+         
         </Grid>
         </div>
         );

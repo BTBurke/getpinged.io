@@ -14,7 +14,7 @@ const styles = theme => ({
     root: {
         marginTop: 0,
         width: '100%',
-        background: '#fff',
+        background: '#e1eef6',
         minHeight: '250px',
         fontFamily: roboto,
       },
@@ -25,14 +25,18 @@ const styles = theme => ({
         //color: '#3c6fa8',
         textAlign: 'center',
         margin: '0 5px 0 5px',
+        fontFamily: 'Montserrat',
+        fontWeight: 700,
     },
     features: {
         marginTop: '20px',
+        marginRight: '20px',
+        marginBottom: '40px'
     },
     feature: {
         minWidth: '275px',
         height: '100%',
-        width: '100%,'
+        width: '100%,',
     },
     shot: {
         margin: '0 0 5px 0',
@@ -48,23 +52,27 @@ const styles = theme => ({
         flexGrow: 1,
     },
     rule: {
-        marginTop: '15px',
-        marginBottom: '15px',
-        backgroundColor: '#eee',
+        marginBottom: '40px',
+        backgroundColor: '#ff5f2e',
+        color: '#000',
+        minHeight: '2px',
+        minWidth: '200px',
+        borderWidth: '0 2px 0 0',
+        borderColor: '#ff5f2e'
     }
 })
 
 const Screenshot = ({ classes }) => (
   <div className={classes.root}>
   <Grid container justify="center" alignItems="center" direction="column" spacing={24}>
-    <Grid item xs={12}>
+    <Grid item xs={8}>
         <div className={classes.headline}>
             <Typography type="headline" className={classes.headtext}>
                 All the data you need to determine the health of your dependencies at a glance, delivered right to your inbox
             </Typography>
         </div>
     </Grid>
-    <Grid item xs={12}>
+    <Grid item xs={10} md={11}>
         <Grid container className={classes.features} justify="space-around" alignItems="stretch" direction="row" spacing={24}>
             <Grid item xs={12} md={4}>
                 <Card className={classes.feature}>
@@ -108,13 +116,17 @@ const Screenshot = ({ classes }) => (
         </Grid>
     </Grid>
     <Divider className={classes.rule}/>
-    <Grid item xs={12} className={classes.nospacing}>
-        <div className={classes.headline}>
-            <Typography type="headline" className={classes.headtext}>
-            Get a personalized email like this every week with just the stuff you need to know
-            </Typography>
-        </div>
-        <img src={email} className={classes.shot} />
+    <Grid container justify="center" alignItems="center" direction="row" spacing={24} className={classes.nospacing}>
+        <Grid item xs={8} md={3}>
+            <div className={classes.headline}>
+                <Typography type="headline" className={classes.headtext}>
+                Get a personalized email like this every week with just the stuff you need to know
+                </Typography>
+            </div>
+        </Grid>
+        <Grid item xs={12} md={8} className={classes.nospacing}>
+            <img src={email} className={classes.shot} />
+        </Grid>
     </Grid>
 </Grid>
   </div>

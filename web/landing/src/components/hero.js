@@ -5,13 +5,13 @@ import { withStyles } from 'material-ui/styles'
 import Button from 'material-ui/Button'
 import Typography from 'material-ui/Typography'
 import roboto from '../pages/fonts/roboto.css'
-
+import montserrat from '../pages/fonts/montserrat.css'
 
 const styles = theme => ({
   root: {
     marginTop: 0,
     width: '100%',
-    background: '#03A9F4',
+    background: '#004e66',
     minHeight: '250px',
     display: 'flex',
     flexGrow: 1,
@@ -26,9 +26,13 @@ const styles = theme => ({
     //maxWidth: '840px',
     textAlign: 'center',
     width: '80%',
+    fontFamily: 'Montserrat',
+    fontWeight: 700,
   },
   whiteText: {
     color: '#fff',
+    fontFamily: 'Montserrat',
+    fontWeight: 700,
   },
   actionButton: {
     background: '#ffad11',
