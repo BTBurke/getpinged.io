@@ -120,7 +120,7 @@ const Screenshot = ({ classes }) => (
         <Grid item xs={8} md={3}>
             <div className={classes.headline}>
                 <Typography type="headline" className={classes.headtext}>
-                Get a personalized email like this every week with just the stuff you need to know
+                Get a personalized email like this every week with just the stuff you need to know about the projects you follow
                 </Typography>
             </div>
         </Grid>

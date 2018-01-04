@@ -6,6 +6,7 @@ import Button from 'material-ui/Button'
 import Typography from 'material-ui/Typography'
 import roboto from '../pages/fonts/roboto.css'
 import montserrat from '../pages/fonts/montserrat.css'
+import Divider from 'material-ui/Divider'
 
 const styles = theme => ({
   root: {
@@ -44,6 +45,19 @@ const styles = theme => ({
   tiny: {
     fontSize: '1rem',
     color: '#fff',
+  },
+  rule: {
+        margin: 'auto',
+        marginTop: '20px',
+        marginBottom: '20px',
+        backgroundColor: '#ff5f2e',
+        color: '#000',
+        minHeight: '2px',
+        minWidth: '200px',
+        maxWidth: '200px',
+        borderWidth: '0 2px 0 0',
+        borderColor: '#ff5f2e',
+        
   }
 })
 
@@ -52,7 +66,9 @@ const Hero = ({ classes }) => (
     <div className={classes.headline}>
       <Grid container spacing={24}>
         <Grid item xs={12}>
-          <Typography className={classes.whiteText} type="display2">Get a weekly email with the latest updates to your dependencies</Typography>
+          <Typography className={classes.whiteText} type="display2">Get a weekly email summarizing changes to the projects you follow</Typography>
+          <Divider className={classes.rule} />
+          <Typography className={classes.whiteText} type="title">Keeping up with your dependencies shouldn't be hard. We'll let you know when something significant happens.</Typography>
           <Button raised href="/page-2/" className={classes.actionButton}>Start following a project</Button>
           <Typography className={classes.whiteText} type="body1">It's free!</Typography>
         </Grid>

@@ -69,6 +69,7 @@ const TemplateWrapper = ({ children, classes }) => (
       ]}
     />
     <div className={classes.root}>
+      <Grid container spacing={0}>
         <Toolbar className={classes.toolbar}>
           <img src={logo} className={classes.logo}/>
           <Typography type="title" color="inherit" className={classes.flex}>
@@ -77,6 +78,7 @@ const TemplateWrapper = ({ children, classes }) => (
           <Button color="contrast">Sign Up</Button>
           <Button color="contrast" className={classes.hideMobile}>Login</Button>
         </Toolbar>
+        </Grid>
     </div>
     <div>
       <Grid container spacing={0}>

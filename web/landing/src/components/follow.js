@@ -106,7 +106,7 @@ class Follow extends React.Component{
         <Grid container justify="center" alignItems="center" direction="column" spacing={24}>
             <Grid item>
                 <Typography type="headline" className={classes.headtext}>
-                    Not sure what to follow? Why not start with some of these great projects?
+                    Not sure who to follow? Why not start with some of these great projects?
                 </Typography>
             </Grid>
             <Grid item>
