@@ -66,7 +66,7 @@ const Hero = ({ classes }) => (
   <div className={classes.root}>
     <div className={classes.headline}>
       <Grid container justify="center" alignItems="center" direction="column" spacing={0}>
-        <Grid item xs={12} md={10}>
+        <Grid item xs={11} md={10}>
             <Typography className={classes.whiteText} type="display2">Get a weekly email summarizing changes to the projects you follow</Typography>
             <Divider className={classes.rule} />
             <Typography className={classes.whiteText} type="title">Keeping up with your dependencies shouldn't be hard. We'll let you know when something significant happens.</Typography>

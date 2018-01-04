@@ -57,6 +57,9 @@ const styles = theme => ({
       form: {
           width: '100%',
           flexGrow: 1,
+      },
+      chipSelect: {
+          backgroundColor: '#ff5f2e'
       }
 })
 
@@ -119,7 +122,7 @@ class Follow extends React.Component{
                         return (
                         <Grid item key={proj}>
                             <Chip
-                            avatar={<Avatar>{selected ? '✔' : '+'}
+                            avatar={<Avatar className={selected ? classes.chipSelect : null}>{selected ? '✔' : '+'}
                                 </Avatar>}
                             label={proj}
                             style={selected ? {background: '#ffad11'} : null}
