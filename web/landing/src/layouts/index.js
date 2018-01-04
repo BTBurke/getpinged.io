@@ -64,7 +64,7 @@ const TemplateWrapper = ({ children, classes }) => (
     <Helmet
       title="Pinged | Get updates on your favorite projects"
       meta={[
-        { name: 'description', content: 'Track updates to your favorite projects via a weekly email' },
+        { name: 'description', content: 'Track changes to your favorite projects via a weekly email' },
         { name: 'keywords', content: 'dependency tracking, project tracking, software development' },
       ]}
     />
@@ -78,14 +78,10 @@ const TemplateWrapper = ({ children, classes }) => (
           <Button color="contrast">Sign Up</Button>
           <Button color="contrast" className={classes.hideMobile}>Login</Button>
         </Toolbar>
-        </Grid>
-    </div>
-    <div>
-      <Grid container spacing={0}>
-        {children()}
       </Grid>
+      {children()}
     </div>
-    </div>
+  </div>
 );
 
 
