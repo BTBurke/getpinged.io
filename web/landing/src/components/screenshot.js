@@ -9,6 +9,8 @@ import roboto from '../pages/fonts/roboto.css'
 import monitor  from '../pages/assets/heroicon-monitor-lg.svg'
 import ticket from '../pages/assets/heroicon-ticket-lg.svg'
 import award from '../pages/assets/heroicon-award-lg.svg'
+import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List'
+import CheckCircle from 'material-ui-icons/CheckCircle'
 
 const styles = theme => ({
     root: {
@@ -52,13 +54,24 @@ const styles = theme => ({
         flexGrow: 1,
     },
     rule: {
-        marginBottom: '40px',
+        marginBottom: '20px',
         backgroundColor: '#ff5f2e',
         color: '#000',
         minHeight: '2px',
         minWidth: '200px',
         borderWidth: '0 2px 0 0',
         borderColor: '#ff5f2e'
+    },
+    checks: {
+        fontSize: 50,
+        color: '#ff5f2e',
+    },
+    listContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        alignContent: 'flex-start',
     }
 })
 
@@ -116,15 +129,29 @@ const Screenshot = ({ classes }) => (
         </Grid>
     </Grid>
     <Divider className={classes.rule}/>
-    <Grid container justify="center" alignItems="center" direction="row" spacing={24} className={classes.nospacing}>
-        <Grid item xs={8} md={3}>
+    <Grid container justify="center" alignItems="center" direction="row" spacing={0} className={classes.nospacing}>
+        <Grid item xs={8} md={3} lg={4}>
             <div className={classes.headline}>
                 <Typography type="headline" className={classes.headtext}>
-                Get a personalized email like this every week with just the stuff you need to know about the projects you follow
+                Get a personalized email like this every week
                 </Typography>
             </div>
+            <List className={classes.listContainer}>
+                <ListItem>
+                    <ListItemIcon>
+                        <CheckCircle className={classes.checks}/>
+                    </ListItemIcon>
+                    <ListItemText primary="Just the stuff you need to know" />
+                </ListItem>
+                <ListItem>
+                    <ListItemIcon>
+                        <CheckCircle className={classes.checks}/>
+                    </ListItemIcon>
+                    <ListItemText primary="Only the projects you want to follow" />
+                </ListItem>
+            </List>
         </Grid>
-        <Grid item xs={12} md={8} className={classes.nospacing}>
+        <Grid item xs={12} md={8} lg={6} className={classes.nospacing}>
             <img src={email} className={classes.shot} />
         </Grid>
     </Grid>

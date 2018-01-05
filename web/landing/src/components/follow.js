@@ -105,7 +105,7 @@ class Follow extends React.Component{
         
         const projects = [
             'facebook/react',
-            'rustlang/rust',
+            'rust-lang/rust',
             'google/golang',
             'facebook/redux',
             'vuejs/vue',
