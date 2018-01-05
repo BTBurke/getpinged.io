@@ -8,6 +8,7 @@ import { FormControl } from 'material-ui/Form';
 import roboto from '../pages/fonts/roboto.css'
 import Chip from 'material-ui/Chip'
 import Avatar from 'material-ui/Avatar'
+import Button from 'material-ui/Button'
 
 const styles = theme => ({
     root: {
@@ -60,7 +61,14 @@ const styles = theme => ({
       },
       chipSelect: {
           backgroundColor: '#ff5f2e'
-      }
+      },
+      actionButton: {
+        background: '#ffad11',
+        marginTop: '35px',
+        '&:hover': {
+          background: '#ff8513',
+      },
+  },
 })
 
 
@@ -104,6 +112,8 @@ class Follow extends React.Component{
             'myproj/something',
         ]; 
     
+        let someSelected = this.state.selected.length > 0
+        
         return (
         <div className={classes.root}>
         <Grid container justify="center" alignItems="center" direction="column" spacing={24}>
@@ -134,7 +144,9 @@ class Follow extends React.Component{
                 }
                 </Grid>
             </Grid>
-         
+            <Grid item>
+                 <Button raised href={someSelected ? "/page-2?selected="+this.state.selected.join() : "/page-2"} className={classes.actionButton}>Start following {someSelected ? 'these projects' : 'a project'}</Button>
+            </Grid>
         </Grid>
         </div>
         );
