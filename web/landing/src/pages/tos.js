@@ -5,7 +5,8 @@ import { withStyles } from 'material-ui/styles'
 const styles = theme => ({
     terms: {
         color: '#000',
-        backgroundColor: '#fff'
+        backgroundColor: '#fff',
+        padding: 40
     }
 })
 

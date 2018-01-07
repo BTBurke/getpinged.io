@@ -1,8 +1,18 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { withStyles } from 'material-ui/styles'
 
-const SecondPage = () => (
-<div>
+
+const styles = theme => ({
+      text: {
+            backgroundColor: '#fff',
+            color: '#000',
+            padding: 40
+      }
+})
+
+const SecondPage = ({classes}) => (
+<div className={classes.text}>
 <h1>Privacy Policy</h1>
 This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.<br/><br/>What personal information do we collect from the people that visit our blog, website or app?<br/><br/>When ordering or registering on our site, as appropriate, you may be asked to enter your name, email address or other details to help you with your experience.<br/>
 <br/><strong>When do we collect information?</strong><br/>
@@ -113,7 +123,7 @@ Contacting Us<br/>
 <br/>
 If there are any questions regarding this privacy policy, you may contact us using the information below.<br/>
 <br/>
-getpinged.io<br/>
+Bryan Burke<br/>
 3220 La Paz Pl<br/>
 Washington, DC 20521-3220<br/>
 USA<br/>
@@ -123,4 +133,5 @@ support@getpinged.io<br/>
 Last Edited on 2018-01-07<br/>
 </div>
 )
-export default SecondPage
+
+export default withStyles(styles)(SecondPage)

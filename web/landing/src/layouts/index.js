@@ -26,9 +26,11 @@ const styles = theme => ({
     marginTop: 0,
     background: '#004e66',
     width: '100%',
+    minHeight: '100vh'
   },
   flex: {
     flex: 1,
+    paddingTop: 15
   },
   logo: {
     marginLeft: 0,
@@ -42,7 +44,7 @@ const styles = theme => ({
     fontStyle: 'italic',
     fontSize: '34px',
     fontFamily: 'Orbitron',
-    paddingTop: '0px',
+    marginTop: '20px',
   },
   hideMobile: {
     '@media screen and (max-width: 584px)': {
@@ -73,7 +75,7 @@ const styles = theme => ({
     textDecoration: 'none'
   },
   footer: {
-    marginTop: '30px'
+    marginTop: '30px',
   }
 
 });
