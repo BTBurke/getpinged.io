@@ -54,13 +54,34 @@ const styles = theme => ({
   },
   global: {
     'overflow-x': 'hidden',
+  },
+  footerUl: {
+    paddingTop: '30px',
+    display: 'inline',
+    listStyleType: 'none',
+    paddingRight: '20px',
+    fontFamily: 'Roboto',
+    fontSize: '12px',
+    color: '#fff'
+  },
+  footerLi: {
+    display: 'inline',
+    paddingRight: '20px',
+  },
+  footLink: {
+    color: '#fff',
+    textDecoration: 'none'
+  },
+  footer: {
+    marginTop: '30px'
   }
+
 });
 
 
 
 const TemplateWrapper = ({ children, classes }) => (
-  <div className="classes.global">
+  <div className={classes.global}>
     <Helmet
       title="Pinged | Get updates on your favorite projects"
       meta={[
@@ -75,11 +96,21 @@ const TemplateWrapper = ({ children, classes }) => (
           <Typography type="title" color="inherit" className={classes.flex}>
             <span className={classes.logoText}>pinged</span>
           </Typography>
-          <Button color="contrast">Sign Up</Button>
-          <Button color="contrast" className={classes.hideMobile}>Login</Button>
+          <Button href="https://app.getpinged.io/signup" color="contrast">Sign Up</Button>
+          <Button href="https://app.getpinged.io/login" color="contrast" className={classes.hideMobile}>Login</Button>
         </Toolbar>
       </Grid>
       {children()}
+      <Grid container spacing={0} justify="flex-end" alignItems="center" direction="row" >
+        <Grid item className={classes.footer}>
+            <ul className={classes.footerUl}>
+              <li className={classes.footerLi}><Link to="/about" className={classes.footLink}>About</Link></li>
+              <li className={classes.footerLi}><Link to="/tos" className={classes.footLink}>Terms of Service</Link></li>
+              <li className={classes.footerLi}><Link to="/privacy" className={classes.footLink}>Privacy</Link></li>
+              <li className={classes.footerLi}><a href="mailto:support@getpinged.io" className={classes.footLink}>Support</a></li>
+            </ul>
+        </Grid>
+      </Grid>
     </div>
   </div>
 );

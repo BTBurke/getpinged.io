@@ -9,6 +9,7 @@ import roboto from '../pages/fonts/roboto.css'
 import Chip from 'material-ui/Chip'
 import Avatar from 'material-ui/Avatar'
 import Button from 'material-ui/Button'
+import buildURL from 'build-url'
 
 const styles = theme => ({
     root: {
@@ -100,6 +101,14 @@ class Follow extends React.Component{
         console.log("got: ", e.target.target)
     }
 
+    getURL() {
+        return this.state.selected.length == 0 ? 'https://app.getpinged.io/signup' : buildURL('https://app.getpinged.io/signup', {
+            queryParams: {
+                'project': this.state.selected
+            }
+        });
+    }
+
     render(props) {
         const {classes} = this.props
         
@@ -145,7 +154,7 @@ class Follow extends React.Component{
                 </Grid>
             </Grid>
             <Grid item>
-                 <Button raised href={someSelected ? "/page-2?selected="+this.state.selected.join() : "/page-2"} className={classes.actionButton}>Start following {someSelected ? 'these projects' : 'a project'}</Button>
+                 <Button raised href={this.getURL()} className={classes.actionButton}>Start following {someSelected ? 'these projects' : 'a project'}</Button>
             </Grid>
         </Grid>
         </div>

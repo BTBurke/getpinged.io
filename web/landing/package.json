@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "build-url": "^1.0.10",
     "caniuse-db": "^1.0.30000760",
     "gatsby": "^1.9.102",
     "gatsby-link": "^1.6.24",
