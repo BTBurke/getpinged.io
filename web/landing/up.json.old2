@@ -1,0 +1,22 @@
+{
+    "profile": "getpinged",
+    "regions": ["us-east-1"],
+    "name": "getpingedio",
+    "hooks": {
+        "build": "yarn build"
+    },
+    "proxy": {
+        "command": "./caddy -port $PORT -root public/"
+    },
+    "cors": {
+        "enable": true
+    },
+    "stages": {
+        "production": {
+            "domain": "getpinged.io"
+        },
+        "development": {
+            "domain": "dev.getpinged.io"
+        }
+    }
+}
