@@ -96,7 +96,6 @@ class Login extends React.Component {
         const { from } = this.props.location.state || { from: { pathname: '/projects' } }
         const { redirectToReferrer } = this.state
         const { errorMsg } = this.props.location.state || ""
-        console.log('state', this.state)
         
         if (redirectToReferrer || this.isLoggedIn()) {
             window.location.replace(from.pathname)

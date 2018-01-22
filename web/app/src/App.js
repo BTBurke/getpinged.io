@@ -7,17 +7,12 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
+import Session from './session/session';
 
-class Session extends React.Component {
-  
-  render() {
-    return (
-    <div>
-      This is the internal site
-    </div>
-    )
-  }
-}
+
+const NakedRedirect = () => (
+  <Redirect to='/projects' />
+)
 
 const App = () => (
   <Router>
@@ -25,6 +20,8 @@ const App = () => (
       <Route path="/login" component={Login} />
       <Route path="/signup" component={Login} />
       <PrivateRoute path="/projects" component={Session} />
+      <PrivateRoute path="/search" component={Session} />
+      <PrivateRoute exact path="/" component={NakedRedirect} />
     </div>
   </Router>
 )
