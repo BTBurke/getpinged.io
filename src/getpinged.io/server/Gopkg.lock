@@ -3,21 +3,30 @@
 
 [[projects]]
   name = "github.com/go-chi/chi"
-  packages = ["."]
-  revision = "687d2792aedd8e8ac3bbd8592cf55b91d7ea8ce9"
-  version = "v3.3.1"
+  packages = [
+    ".",
+    "middleware"
+  ]
+  revision = "e83ac2304db3c50cf03d96a2fcd39009d458bc35"
+  version = "v3.3.2"
 
 [[projects]]
   branch = "master"
   name = "github.com/jmoiron/sqlx"
-  packages = [".","reflectx"]
-  revision = "3379e5993990b1f927fc8db926485e6f6becf2d2"
+  packages = [
+    ".",
+    "reflectx"
+  ]
+  revision = "de8647470aafe4854c976707c431dbe1eb2822c6"
 
 [[projects]]
   branch = "master"
   name = "github.com/lib/pq"
-  packages = [".","oid"]
-  revision = "8c6ee72f3e6bcb1542298dd5f76cb74af9742cec"
+  packages = [
+    ".",
+    "oid"
+  ]
+  revision = "27ea5d92de30060e7121ddd543fe14e9a327e0cc"
 
 [[projects]]
   name = "github.com/pkg/errors"
@@ -25,9 +34,30 @@
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
   version = "v0.8.0"
 
+[[projects]]
+  name = "github.com/sirupsen/logrus"
+  packages = ["."]
+  revision = "d682213848ed68c0a260ca37d6dd5ace8423f5ba"
+  version = "v1.0.4"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["ssh/terminal"]
+  revision = "d94f6bc902c2970500950e88ab1a54a0c26bec48"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = [
+    "unix",
+    "windows"
+  ]
+  revision = "af50095a40f9041b3b38960738837185c26e9419"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2e5824806a47d0b21792dbcf02461969235051901792d25f2779b036272c0a45"
+  inputs-digest = "3e0ba421ad8530633446b32ac05ee2c77c70fb174f8ae05c3c287fc0cb9a595d"
   solver-name = "gps-cdcl"
   solver-version = 1
